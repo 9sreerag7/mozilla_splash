@@ -1,0 +1,102 @@
+/* header and body setup */
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #121212; /* dark background */
+  color: #e0e0e0; /* light text */
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #1e1e1e; /* dark card background */
+  position: relative;
+}
+
+/* Header styling */
+
+header {
+  height: 150px;
+}
+
+header img {
+  width: 100px;
+  position: absolute;
+  right: 32.5px;
+  top: 32.5px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 140px;
+  margin: 0 0 0 32.5px;
+  color: #ff5722; /* accent color */
+}
+
+/* main section and video styling */
+
+main {
+  background: #2a2a2a; /* slightly lighter for contrast */
+}
+
+article {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #ff5722; /* accent color for headings */
+}
+
+p {
+  line-height: 2;
+}
+
+iframe {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-width: 100%;
+}
+
+/* further info links */
+
+.further-info {
+  clear: left;
+  padding: 40px 0;
+  background: #3c3c3c;
+  box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.5),
+    inset 0 -3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.further-info a {
+  width: 25%;
+  display: block;
+  float: left;
+}
+
+.further-info img {
+  max-width: 100%;
+  filter: brightness(0.9); /* ensure images are visible on dark bg */
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Red panda image */
+
+.red-panda img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Links styling for dark background */
+a {
+  color: #90caf9; /* light blue links for dark theme */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
